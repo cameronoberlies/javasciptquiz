@@ -1,1 +1,102 @@
+*, *::before, *::after {
+    box-sizing: border-box;
 
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+/*
+body.correct {
+
+}
+
+body.wrong {
+
+}
+*/
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    padding: 10px;
+    height: 75%;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.btn-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 10px;
+    justify-content: center;
+    align-items: flex-start;
+    
+    
+    
+}
+
+
+
+.btn {
+    background-color: indigo;
+    color: white;
+    border-radius: 5px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 25px;
+    outline: none;
+    
+    
+
+    
+    
+
+}
+
+.btn:hover {
+    background-color: fuchsia;
+    border-color: black;
+
+}
+
+#question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    padding-bottom: 30px;
+
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+#next-btn {
+    align-items: flex-start;
+}
+
+.hide {
+    display: none;
+}
+/*
+.time {
+    
+}
